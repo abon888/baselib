@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "build/",
+    "paths": {
+      "@BASELIB/*": [ "src/*" ],
+      "@LIBS/*": [ "src/libs/*" ]
+    },
+    "target": "es2017",
+    "module": "commonjs",
+    "allowJs": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "noImplicitAny": false
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
