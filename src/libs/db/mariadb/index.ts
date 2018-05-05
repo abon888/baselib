@@ -8,8 +8,6 @@ class MariaDB{
 
   constructor(private config: any){}
 
-  // async _init(): Promise<any>{ return new Promise<any>((resolve,reject)=>{resolve("temp promizes...");}); }
-
   async init(): Promise<any>{
     this.sequelize = new Sequelize({
       dialect: this.config.dialect,
